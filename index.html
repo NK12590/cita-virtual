@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cita Virtual Contigo 💖</title>
+  <title>Cita Virtual Con mi Hermosa Reina 💖</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -50,20 +50,20 @@
   </style>
 </head>
 <body>
-  <h1>✨ ¡Tengamos una Cita Virtual! ✨</h1>
+  <h1>✨ Hey tú, sí, te hablo a ti, a la chica más guapa del planeta. ¿Aceptarías una cita virtual? ✨</h1>
 
   <div class="section">
-    <h2>🎬 Elige la película o serie</h2>
+    <h2>🎬 En caso no me hayas rechazado, elige una película o serie :)</h2>
     <div class="options" id="movies">
       <div class="option">Barbie (live action)</div>
-      <div class="option">Demon Slayer</div>
+      <div class="option">Demon Slayer (momento nerdy)</div>
       <div class="option">La Era del Hielo</div>
       <div class="option">Harry Potter</div>
     </div>
   </div>
 
   <div class="section">
-    <h2>🍽️ Elige tu desayuno</h2>
+    <h2>🍽️ Elija su desayuno, mi reina</h2>
     <div class="options" id="breakfasts">
       <div class="option">Waffle + Bebida</div>
       <div class="option">Mini hot cakes + Smoothie/Juguito</div>
@@ -72,7 +72,7 @@
     </div>
   </div>
 
-  <div class="message" id="message">Haz tus elecciones para sorprenderte ❤️</div>
+  <div class="message" id="message">Sé que es poco, pero prometo darte más cuando esté a tu lado en persona. ❤️</div>
 
   <script>
     const handleSelection = (sectionId) => {
@@ -91,7 +91,7 @@
       const selectedBreakfast = document.querySelector('#breakfasts .selected');
       const message = document.getElementById('message');
       if (selectedMovie && selectedBreakfast) {
-        message.innerHTML = `🎉 ¡Perfecto! Hoy vemos <strong>${selectedMovie.innerText}</strong> y te llegará <strong>${selectedBreakfast.innerText}</strong>. 😍`;
+        message.innerHTML = `🎉 ¡Perfecto! Hoy veremos <strong>${selectedMovie.innerText}</strong> y te llegará <strong>${selectedBreakfast.innerText}</strong>. Gracias por hacerme feliz 😍`;
       }
     };
 
